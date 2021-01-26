@@ -43,6 +43,53 @@
 			/obj/item/storage/box/donkpockets/donkpockethonk = 1,
 		)
 
+/obj/effect/spawner/lootdrop/ttt/weapons
+	name = "weapon's spawner"
+	lootdoubles = FALSE
+
+	loot = list(
+			/obj/item/gun/ballistic/automatic/pistol/deagle/ctf = 1,
+			/obj/item/gun/ballistic/automatic/pistol = 1,
+			/obj/item/gun/ballistic/automatic/m90/unrestricted = 1,
+			/obj/item/gun/ballistic/automatic/tommygun = 1,
+			/obj/item/gun/energy/plasmacutter/adv = 1,
+			/obj/item/gun/energy/e_gun/mini = 1,
+			/obj/item/gun/ballistic/rifle/boltaction/brand_new = 1,
+			/obj/item/gun/ballistic/shotgun/lethal = 1,
+			/obj/item/gun/ballistic/shotgun/doublebarrel/hook = 1,
+			/obj/item/gun/grenadelauncher = 1,
+			/obj/item/gun/energy/kinetic_accelerator = 1,
+			/obj/item/gun/medbeam = 1,
+		)
+
+/obj/effect/spawner/lootdrop/ttt/ammo
+	name = "ammunition spawner"
+	lootdoubles = FALSE
+
+	loot = list(
+			/obj/item/ammo_box/magazine/m50/ctf = 1,
+			/obj/item/ammo_box/magazine/m9mm = 1,
+			/obj/item/storage/box/lethalshot = 1,
+			/obj/item/ammo_casing/shotgun/incendiary = 1,
+			/obj/item/ammo_box/magazine/tommygunm45 = 1,
+			/obj/item/ammo_box/magazine/m556 = 1,
+			/obj/item/ammo_casing/a762 = 1,
+			/obj/item/grenade/chem_grenade/teargas = 1,
+		)
+
+/obj/effect/spawner/lootdrop/ttt/misc
+	name = "misc spawner"
+	lootdoubles = FALSE
+
+	loot = list(
+			/obj/item/storage/firstaid/brute = 1,
+			/obj/item/storage/firstaid/fire = 1,
+			/obj/item/storage/firstaid/regular = 1,
+			/obj/item/clothing/suit/armor/bulletproof = 1,
+			/obj/item/clothing/head/helmet/alt = 1,
+			/obj/item/food/syndicake = 1,
+		)
+
 /obj/effect/spawner/lootdrop/arcade_boards
 	name = "arcade board spawner"
 	lootdoubles = FALSE

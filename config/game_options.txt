@@ -88,15 +88,15 @@ ALERT_DELTA Destruction of the station is imminent. All crew are instructed to o
 ## Default probablity is 1, increase to make that mode more likely to be picked.
 ## Set to 0 to disable that mode.
 
-PROBABILITY TRAITOR 5
-PROBABILITY TRAITORBRO 2
-PROBABILITY TRAITORCHAN 4
-PROBABILITY INTERNAL_AFFAIRS 3
-PROBABILITY NUCLEAR 2
-PROBABILITY REVOLUTION 2
-PROBABILITY CULT 2
-PROBABILITY CHANGELING 2
-PROBABILITY WIZARD 4
+PROBABILITY TRAITOR 30
+PROBABILITY TRAITORBRO 0
+PROBABILITY TRAITORCHAN 0
+PROBABILITY INTERNAL_AFFAIRS 0
+PROBABILITY NUCLEAR 0
+PROBABILITY REVOLUTION 0
+PROBABILITY CULT 0
+PROBABILITY CHANGELING 0
+PROBABILITY WIZARD 0
 PROBABILITY MONKEY 0
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
@@ -113,7 +113,7 @@ REPEATED_MODE_ADJUST 45 30 10
 ## Toggles for continuous modes.
 ## Modes that aren't continuous will end the instant all antagonists are dead.
 
-CONTINUOUS TRAITOR
+#CONTINUOUS TRAITOR
 CONTINUOUS TRAITORBRO
 CONTINUOUS TRAITORCHAN
 CONTINUOUS INTERNAL_AFFAIRS
@@ -249,7 +249,7 @@ DYNAMIC_CONFIG_ENABLED
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
-ALLOW_RANDOM_EVENTS
+#ALLOW_RANDOM_EVENTS
 
 ## Multiplier for earliest start time of dangerous events.
 ## Set to 0 to make dangerous events avaliable from round start.
@@ -263,7 +263,7 @@ EVENTS_MIN_PLAYERS_MUL 1
 ## AI ###
 
 ## Allow the AI job to be picked.
-ALLOW_AI
+#ALLOW_AI
 
 ## Allow the AI Multicamera feature to be used by AI players
 ALLOW_AI_MULTICAM
@@ -544,13 +544,13 @@ MICE_ROUNDSTART 10
 ROUNDSTART_TRAITS
 
 ## Uncomment to disable human moods.
-#DISABLE_HUMAN_MOOD
+DISABLE_HUMAN_MOOD
 
 ## Enable night shifts ##
 #ENABLE_NIGHT_SHIFTS
 
 ## Enable randomized shift start times##
-#RANDOMIZE_SHIFT_TIME
+RANDOMIZE_SHIFT_TIME
 
 ## Sets shift time to server time at roundstart. Overridden by RANDOMIZE_SHIFT_TIME ##
 #SHIFT_TIME_REALTIME

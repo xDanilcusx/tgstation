@@ -35,11 +35,9 @@
 	suit = /obj/item/clothing/suit/det_suit
 	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/fedora/det_hat
-	l_pocket = /obj/item/toy/crayon/white
-	r_pocket = /obj/item/lighter
-	backpack_contents = list(/obj/item/storage/box/evidence=1,\
-		/obj/item/detective_scanner=1,\
-		/obj/item/melee/classic_baton=1)
+	l_pocket = /obj/item/detective_scanner
+	r_pocket = /obj/item/binoculars
+	belt = /obj/item/melee/classic_baton
 	mask = /obj/item/clothing/mask/cigarette
 
 	implants = list(/obj/item/implant/mindshield)
