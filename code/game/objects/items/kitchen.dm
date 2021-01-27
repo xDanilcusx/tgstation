@@ -209,6 +209,16 @@
 	throwforce = 15
 	bayonet = TRUE
 
+/obj/item/kitchen/knife/combat/poisoned
+	name = "survival knife"
+	icon_state = "survivalknife"
+	embedding = list("pain_mult" = 4, "embed_chance" = 35, "fall_chance" = 10)
+	desc = "A hunting grade survival knife."
+	force = 35
+	throwforce = 15
+	damtype = TOX
+	bayonet = FALSE
+
 /obj/item/kitchen/knife/combat/bone
 	name = "bone dagger"
 	inhand_icon_state = "bone_dagger"

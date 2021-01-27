@@ -441,15 +441,14 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return counter >= 8
 
 /datum/objective/escape
-	name = "escape"
-	explanation_text = "Escape on the shuttle or an escape pod alive and without being in custody."
-	team_explanation_text = "Have all members of your team escape on a shuttle or pod alive, without being in custody."
+	name = "murderbone"
+	explanation_text = "Stay alive and kill every innocent/detective in the round."
+	team_explanation_text = "Stay alive and kill every innocent/detective in the round."
 
 /datum/objective/escape/check_completion()
-	// Require all owners escape safely.
 	var/list/datum/mind/owners = get_owners()
 	for(var/datum/mind/M in owners)
-		if(!considered_escaped(M))
+		if(!considered_alive(M))
 			return FALSE
 	return TRUE
 
@@ -495,7 +494,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 
 /datum/objective/survive
 	name = "survive"
-	explanation_text = "Stay alive until the end."
+	explanation_text = "Stay alive and kill every innocent/detective in the round."
 
 /datum/objective/survive/check_completion()
 	var/list/datum/mind/owners = get_owners()
