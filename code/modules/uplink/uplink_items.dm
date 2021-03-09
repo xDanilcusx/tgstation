@@ -334,13 +334,6 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	cost = 4
 	surplus = 0
 
-/datum/uplink_item/dangerous/foampistol
-	name = "Toy Pistol with Riot Darts"
-	desc = "An innocent-looking toy pistol designed to fire foam darts. Comes loaded with riot-grade \
-			darts effective at incapacitating a target."
-	item = /obj/item/gun/ballistic/automatic/toy/pistol/riot
-	cost = 2
-
 /datum/uplink_item/dangerous/minigun
 	name = "Minigun Pack"
 	desc = "A freaking doom machine, that requires to be worn on the back to use the minigun."
@@ -512,15 +505,16 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 /datum/uplink_item/stealthy_tools
 	category = "Stealth Gadgets"
 
-/datum/uplink_item/stealthy_tools/agent_card
-	name = "Agent Identification Card"
-	desc = "Agent cards prevent artificial intelligences from tracking the wearer, and can copy access \
-			from other identification cards. The access is cumulative, so scanning one card does not erase the \
-			access gained from another. In addition, they can be forged to display a new assignment and name. \
-			This can be done an unlimited amount of times. Some Syndicate areas and devices can only be accessed \
-			with these cards."
-	item = /obj/item/card/id/syndicate
-	cost = 1
+///datum/uplink_item/stealthy_tools/agent_card
+//	name = "Agent Identification Card"
+//	desc = "Agent cards prevent artificial intelligences from tracking the wearer, and can copy access \
+//			from other identification cards. The access is cumulative, so scanning one card does not erase the \
+//			access gained from another. In addition, they can be forged to display a new assignment and name. \
+//			This can be done an unlimited amount of times. Some Syndicate areas and devices can only be accessed \
+//			with these cards."
+//	item = /obj/item/card/id/syndicate
+//	cost = 1
+
 
 /datum/uplink_item/stealthy_tools/chameleon
 	name = "Chameleon Kit"
