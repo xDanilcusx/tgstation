@@ -9,7 +9,7 @@
 	zone = BODY_ZONE_PRECISE_MOUTH
 	slot = ORGAN_SLOT_VOICE
 	gender = PLURAL
-	decay_factor = 0	//we don't want decaying vocal cords to somehow matter or appear on scanners since they don't do anything damaged
+	decay_factor = 0 //we don't want decaying vocal cords to somehow matter or appear on scanners since they don't do anything damaged
 	healing_factor = 0
 	var/list/spans = null
 
@@ -417,7 +417,7 @@
 	else if((findtext(message, throwmode_words)))
 		cooldown = COOLDOWN_MEME
 		for(var/mob/living/carbon/C in listeners)
-			C.throw_mode_on()
+			C.throw_mode_on(THROW_MODE_TOGGLE)
 
 	//FLIP
 	else if((findtext(message, flip_words)))
