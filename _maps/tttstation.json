@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"map_name": "TTTStation",
+	"map_path": "map_files/TTTStation",
+	"map_file": "TTTStation.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_meta"
+	}
+}
